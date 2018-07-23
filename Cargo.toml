@@ -1,0 +1,23 @@
+[package]
+name = "tokio_lsp"
+version = "0.1.0"
+authors = ["Sam Scott <sam.scott89@gmail.com>"]
+
+[dependencies]
+tokio-jsonrpc = "0.9.1"
+futures = "0.1.23"
+tokio-core = "0.1.17"
+tokio-io = "0.1.7"
+tokio = "0.1.7"
+bytes = "0.4.8"
+serde_json = "1.0.24"
+languageserver-types = { path = "../languageserver-types"}
+serde = "1.0.70"
+serde_derive = "1.0.70"
+url = "1.7.1"
+env_logger = "0.5.10"
+slog = { version = "2.3.1", features = ["max_level_trace"] }
+slog-term = "2.4.0"
+slog-async = "2.3.0"
+
+
